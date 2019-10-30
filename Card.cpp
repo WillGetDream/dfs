@@ -1,7 +1,9 @@
 //
-// Created by william shuai xiong on 10/20/19.
+// Created by william   on 10/20/19.
 //
 
+
+//
 //assigns the 52 cards to deck
 #include "Card.h"
 
@@ -16,6 +18,6 @@ Card::Card()
 }
 string Card::print()
 {
-    return (face + " of " + suit);
+    return (face + " of  " + suit);
 }
 
